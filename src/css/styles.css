@@ -71,13 +71,13 @@ section.welcome::after {
 }
 section.welcome .box-welcome{
     width: 60vw;
-    margin: 0 0 0 3rem;
+    margin: 0 0 0 1rem;
     padding: 0 1rem;
     position: relative;
     z-index: 1;
 }
 section.welcome .box-welcome .text h1{
-    font-size: 1.8rem;
+    font-size: 2.5rem;
     color: #2f015f;
     margin-bottom: 1rem;
     font-style: bold;
@@ -88,7 +88,7 @@ section.welcome .box-welcome .text h1 span{
     color: #d204a9;
 }
 section.welcome .box-welcome .text p{
-    font-size: 0.8rem;
+    font-size: 1.3rem;
     color: #5E4D70;
     margin-bottom: 1rem;
     font-style: bold;
@@ -410,10 +410,10 @@ footer{
 
 @media screen and (min-width: 580px) and (max-width: 767px) {
     section.welcome .box-welcome .text h1{
-        font-size: 2.5rem;
+        font-size: 3.3rem;
     }
     section.welcome .box-welcome .text p{
-        font-size: 1.2rem;
+        font-size: 1.5rem;
     }
     section.next-events .events-cards .event-card{
         margin: 1rem .5rem;
@@ -473,13 +473,13 @@ footer{
     }
     
 }
-@media screen and (min-width: 1200px){
+@media screen and (min-width: 1200px) and (max-width: 1400px){
     
     section.welcome .box-welcome .text h1{
-        font-size: 4rem;
+        font-size: 3.5rem;
     }
     section.welcome .box-welcome .text p{
-        font-size: 2rem;
+        font-size: 1.8rem;
         color: #5E4D70;
         margin-bottom: 1rem;
         font-style: bold;
@@ -492,6 +492,7 @@ footer{
     /* About Cards */
     section.about{
         margin-top: 1rem;
+
     }
     section.about .about-cards{
         align-items: center;
@@ -509,7 +510,7 @@ section.next-events .next-events-title p{
 }
     /* Cards */
     section.about .about-cards .about-card{
-        width: 370px;
+        width: 350px;
         height: 320px;
         margin: 0 1rem;
         text-align: center;
@@ -583,4 +584,34 @@ section.next-events .events-cards .event-card .event-card-content .description-e
 section.next-events .events-cards .event-card .event-card-content .description-event a{
     font-size: .8rem;
 }
+}
+@media screen and (min-width: 1401px) {
+    
+    section.welcome .box-welcome .text h1{
+        font-size: 4rem;
+    }
+    section.welcome .box-welcome .text p{
+        font-size: 2rem;
+        color: #5E4D70;
+        margin-bottom: 1rem;
+        font-style: bold;
+    }
+    section.welcome .box-welcome .buttons button{
+        width: 300px;
+        height: 100px;
+        font-size: 2rem;
+    }
+    section.about .about-cards .about-card{
+        width: 350px;
+        height: 320px;
+    }
+    section.about .about-title p,
+section.instructors .instructor-title p,
+section.next-events .next-events-title p{
+    width: 60%;
+    margin: 0 auto;
+    font-size: 1.2rem;
+    margin-bottom: .5rem;
+}
+ 
 }
